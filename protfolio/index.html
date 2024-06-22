@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-700">
+    <nav class="bg-gray-800 p-4 fixed w-full z-10 top-0 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-xl font-bold text-green-400">USAID</div>
+            <div class="hidden md:flex space-x-6">
+                <a href="#home" class="text-green-400">Home</a>
+                <a href="#about" class="text-green-400">About Me</a>
+                <a href="#skills" class="text-green-400">Skills</a>
+                <a href="#projects" class="text-green-400">Projects</a>
+                <a href="#timeline" class="text-green-400">Timeline</a>
+                <a href="#contact" class="text-green-400">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button class="text-green-400 focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mx-auto px-4 py-10 pt-24 ">
+        <section id="home" class="text-center ">
+            <div class="bg-gray-500 p-10 rounded-lg shadow-lg">
+                <h1 class="text-3xl font-bold">Hello, I am</h1>
+                <h2 class="text-4xl font-bold text-green-400 mt-2">&lt; Usaid /&gt;</h2>
+                <h3 class="text-2xl mt-4">Fullstack Developer</h3>
+                <div class="flex justify-center space-x-8 mt-6">
+                    <div>
+                        <span class="text-4xl font-bold">5</span>
+                        <p>Years of Experience</p>
+                    </div>
+                    <div>
+                        <span class="text-4xl font-bold">13</span>
+                        <p>Projects Completed</p>
+                    </div>
+                </div>
+                <div class="flex justify-end  mt-8">
+                    <img src="./20240622_163250_0000.png" alt="" class="w-20 h-20 bg-slate-600 rounded-full">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="mt-12 flex"> 
+            <div>
+                <h2 class="text-3xl text-white">&lt; About Me /&gt;</h2>
+                <p class="mt-4 text-gray-400">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde distinctio veritatis
+                    eos, nam rem quis, ratione saepe ex ea consequatur consequuntur iste praesentium illum cupiditate
+                    voluptatem repudiandae. Accusantium, suscipit corrupti.</p>
+            </div>
+            <div class="mt-4 text-gray-400">
+                <div class="mb-8">
+                    <h3 class="text-xl font-bold">Fullstack Developer</h3>
+                    <p class="mt-2">
+                        Passionate Fullstack Developer with a knack for crafting efficient and scalable web
+                        applications. Skilled in both frontend and backend technologies, constantly learning and
+                        adapting to new challenges.
+                    </p>
+                    <a href="#" class="mt-4 inline-block text-green-400 hover:underline">Learn more</a>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold">Freelancer</h3>
+                    <p class="mt-2">
+                        Experienced freelancer with a focus on delivering high-quality solutions tailored to client
+                        needs. Proficient in project management and client communication to ensure successful project
+                        outcomes.
+                    </p>
+                    <a href="#" class="mt-4 inline-block text-green-400 hover:underline">Hire me</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="skills" class="mt-12">
+            <h2 class="text-3xl text-white">&lt; Skills /&gt;</h2>
+            <div class="flex flex-wrap justify-center mt-4 space-x-4">
+                <img src="https://raw.githubusercontent.com/github/explore/main/topics/javascript/javascript.png"
+                    alt="JavaScript" class="h-12">
+                <img src="https://raw.githubusercontent.com/github/explore/main/topics/html/html.png" alt="HTML"
+                    class="h-12">
+                <img src="https://raw.githubusercontent.com/github/explore/main/topics/css/css.png" alt="CSS"
+                    class="h-12">
+            </div>
+        </section>
+        
+        <section id="projects" class="mt-12">
+            <h2 class="text-3xl text-white">&lt; Projects /&gt;</h2>
+            <!-- Add your projects here -->
+        </section>
+
+        <div id="carouselExampleCaptions" class="carousel slide mt-12" data-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Screenshot (5).png" class="d-block w-100" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Screenshot (7).png" class="d-block w-100" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Screenshot (6).png" class="d-block w-100" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <section id="timeline" class="mt-12">
+            <h2 class="text-3xl font-bold text-white">&lt; Timeline /&gt;</h2>
+            <div class="mt-6">
+                <div class="relative">
+                    <div class="border-l-2 border-green-400 absolute h-full left-1/2 transform -translate-x-1/2"></div>
+                    <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                        <div class="order-1 w-5/12"></div>
+                        <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                            <h1 class="mx-auto font-semibold text-lg text-green-400">1</h1>
+                        </div>
+                        <div class="order-1 w-5/12 px-1 py-4 text-left">
+                            <h4 class="mb-3 font-bold text-lg md:text-2xl text-green-500">Lorem ipsum</h4>
+                            <p class="text-sm md:text-base leading-snug text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, blanditiis. Quasi odit esse magnam eligendi dolorum, rem quidem incidunt nulla placeat dignissimos exercitationem cumque aliquid, labore repellat praesentium corrupti accusamus.</p>
+                        </div>
+                    </div>
+                    <div class="mb-8 flex justify-between items-center w-full left-timeline">
+                        <div class="order-1 w-5/12 px-1 py-4 text-right">
+                            <h4 class="mb-3 font-bold text-lg md:text-2xl text-green-500">Lorem ipsum</h4>
+                            <p class="text-sm md:text-base leading-snug text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel facere dignissimos nostrum excepturi porro tempore aliquam ipsum corrupti animi exercitationem repellendus nisi hic, eius ratione doloribus mollitia esse velit ducimus!</p>
+                        </div>
+                        <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                            <h1 class="mx-auto font-semibold text-lg text-green-400">2</h1>
+                        </div>
+                        <div class="order-1 w-5/12"></div>
+                    </div>
+                    <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                        <div class="order-1 w-5/12"></div>
+                        <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                            <h1 class="mx-auto font-semibold text-lg text-green-400">3</h1>
+                        </div>
+                        <div class="order-1 w-5/12 px-1 py-4 text-left">
+                            <h4 class="mb-3 font-bold text-lg md:text-2xl  text-green-500">Lorem ipsum</h4>
+                            <p class="text-sm md:text-base leading-snug text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis iste voluptates dolorum laboriosam, consequuntur, itaque aliquid dolores aspernatur commodi, suscipit aperiam ratione impedit nobis vitae odio ipsa fugiat sunt odit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="contact" class="bg-gray-800 py-8 mt-12 text-center">
+            <div class="container mx-auto">
+                <div class="flex justify-center space-x-4 mb-4">
+                    <a href="#"><img
+                            src="https://raw.githubusercontent.com/github/explore/main/topics/github/github.png"
+                            alt="GitHub" class="h-8"></a>
+                    <a href="#"><img
+                            src="https://raw.githubusercontent.com/github/explore/main/topics/twitter/twitter.png"
+                            alt="Twitter" class="h-8"></a>
+                </div>
+                <p class="text-gray-500">&copy; 2024 Developer Portfolio. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
